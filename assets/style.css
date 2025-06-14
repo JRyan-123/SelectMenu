@@ -15,7 +15,7 @@
 .hero{
 	width: 100%;
 	height: 100vh;
-	background-image: linear-gradient( #3D3D3D , #828282);
+	background: #3D3D3D;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -35,11 +35,13 @@
 	justify-content: space-between;
 	align-items: center;
 	cursor: pointer;
+	font-weight: 800;
 }
 #selectField img{
 	width: 20px;
+	transition: transform 0.6s;
 }
-.list{
+#list{
 	border-radius: 10px;
 	width: 100%;
 	background: rgba(255, 255, 255, 0.6);
@@ -59,9 +61,30 @@
 
 }
 .options:hover{
-	background: rgba(255, 255, 255, 1.0);
+	background: rgba(255, 255, 255, 0.6);
 	font-weight: 600;
 }
 #icon{
 	width: 20px;
+}
+.hide{
+	visibility: hidden;
+}
+.rotateIcon{
+	transform: rotate(180deg);	
+}
+.fb{
+	color: var(--clr-fb);
+
+}
+.yt{
+	color: var(--clr-yt);
+
+}
+.ig{
+	color: var(--clr-ig);
+
+}
+.wa{
+	color: var(--clr-wa);
 }
