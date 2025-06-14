@@ -1,0 +1,14 @@
+:root{
+	/*color*/
+	--clr-fb:#0866FF;
+	--clr-yt:#FF0000;
+	--clr-ig:#FF0069;
+	--clr-wa:#25D366;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Synonym', sans-serif;
+}
+
